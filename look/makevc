@@ -1,0 +1,14 @@
+# gfsfgkgjfkgjdfgk
+
+DiskStuff= Inquiry.obj ReadCapacity.obj Read.obj DisplayDiskSector.obj FindString.obj
+Functions= HexDump.obj TextDump.obj ConvTools.obj GetToken.obj DisplayHexLine.obj FindPrevTextPage.obj BitDump.obj DumpHexToFile.obj PlatformSpec.obj
+CC= cl
+CCOPTS= -c
+SOURCEDIR= src
+OBJECTDIR= object
+
+look.exe: src\look.cpp $(Functions) $(DiskStuff)
+	$(CC) src\look.cpp $(Functions) $(DiskStuff) -I.\inc
+
+{$(SOURCEDIR)}.cpp.obj:
+	$(CC) -c $<

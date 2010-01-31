@@ -1,0 +1,666 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ACKQREQQ	src/scsidata.h	/^		unsigned char ACKQREQQ:1;$/;"	m	struct:__anon3::__anon8
+ADDRESS_TAG_BIT	src/basetsd.h	103;"	d
+ADDRESS_TAG_BIT	src/basetsd.h	246;"	d
+ADSC_INVALID_FIELD_IN_CDB	src/scsidata.h	124;"	d
+ADSC_RECORDED_ENTITY_NOT_FOUND	src/scsidata.h	126;"	d
+ADSC_UNRECOVERED_READ_ERROR	src/scsidata.h	125;"	d
+AENC	src/scsidata.h	/^		unsigned char AENC:1;$/;"	m	struct:__anon3::__anon7
+ANSIVersion	src/scsidata.h	/^		unsigned char ANSIVersion:3;$/;"	m	struct:__anon3::__anon6
+ASC	src/scsidata.h	/^	unsigned char	ASC;$/;"	m	struct:__anon33
+ASCQ	src/scsidata.h	/^	unsigned char	ASCQ;$/;"	m	struct:__anon33
+AVC	src/scsidata.h	/^		unsigned char	AVC:1;$/;"	m	struct:__anon19::__anon22
+AVolTag	src/scsidata.h	/^		unsigned char AVolTag:1;$/;"	m	struct:__anon24::__anon25
+AdapterObject	src/ntddscsi.h	/^    struct _ADAPTER_OBJECT *AdapterObject;$/;"	m	struct:_DUMP_POINTERS	typeref:struct:_DUMP_POINTERS::_ADAPTER_OBJECT
+AdapterScansDown	src/ntddscsi.h	/^    BOOLEAN AdapterScansDown;$/;"	m	struct:_IO_SCSI_CAPABILITIES
+AdapterUsesPio	src/ntddscsi.h	/^    BOOLEAN AdapterUsesPio;$/;"	m	struct:_IO_SCSI_CAPABILITIES
+AddLength	src/scsidata.h	/^	unsigned char	AddLength;$/;"	m	struct:__anon3
+AddSenseCode	src/scsidata.h	/^	unsigned char	AddSenseCode;$/;"	m	struct:__anon26
+AddSenseCode	src/scsidata.h	/^	unsigned char	AddSenseCode;$/;"	m	struct:__anon29
+AddSenseQual	src/scsidata.h	/^	unsigned char	AddSenseQual;$/;"	m	struct:__anon26
+AddSenseQual	src/scsidata.h	/^	unsigned char	AddSenseQual;$/;"	m	struct:__anon29
+Addr16	src/scsidata.h	/^		unsigned char Addr16:1;			\/\/ Following byte reseved in SCSI-2$/;"	m	struct:__anon3::__anon8
+Addr32	src/scsidata.h	/^		unsigned char Addr32:1;$/;"	m	struct:__anon3::__anon8
+AlignmentMask	src/ntddscsi.h	/^    ULONG AlignmentMask;$/;"	m	struct:_IO_SCSI_CAPABILITIES
+AllocateCommonBuffers	src/ntddscsi.h	/^    BOOLEAN AllocateCommonBuffers;$/;"	m	struct:_DUMP_POINTERS
+BC_DATA_COMPARISON	src/scsidata.h	152;"	d
+BC_NO_DATA_COMPARISON	src/scsidata.h	151;"	d
+BINARY_MODE	src/look.h	16;"	d
+BIS	src/scsidata.h	/^		unsigned char	BIS:1;$/;"	m	struct:__anon19::__anon22
+BLOCK_MODE	src/look.h	17;"	d
+BYTE_WIDE	src/look.h	28;"	d
+BinDump	src/BitDump.cpp	/^bool	BinDump(int infile,int numLines)$/;"	f
+BitStreamDisplay	src/BitDump.cpp	/^void	BitStreamDisplay(unsigned char *buffer,int length,int bigEndian,int position)$/;"	f
+BlockLength	src/scsidata.h	/^	unsigned char	BlockLength[3];$/;"	m	struct:__anon35
+BusData	src/ntddscsi.h	/^    SCSI_BUS_DATA BusData[1];$/;"	m	struct:_SCSI_ADAPTER_BUS_INFO
+ByteCountAvailByte1	src/scsidata.h	/^	unsigned char	ByteCountAvailByte1;$/;"	m	struct:__anon23
+ByteCountAvailByte1	src/scsidata.h	/^	unsigned char	ByteCountAvailByte1;$/;"	m	struct:__anon24
+ByteCountAvailByte2	src/scsidata.h	/^	unsigned char	ByteCountAvailByte2;$/;"	m	struct:__anon23
+ByteCountAvailByte2	src/scsidata.h	/^	unsigned char	ByteCountAvailByte2;$/;"	m	struct:__anon24
+ByteCountAvailByte3	src/scsidata.h	/^	unsigned char	ByteCountAvailByte3;$/;"	m	struct:__anon23
+ByteCountAvailByte3	src/scsidata.h	/^	unsigned char	ByteCountAvailByte3;$/;"	m	struct:__anon24
+CAF	src/scsidata.h	/^		unsigned char	CAF:1;$/;"	m	struct:__anon19::__anon21
+CAP	src/scsidata.h	/^		unsigned char	CAP:1;$/;"	m	struct:__anon19::__anon21
+CLOSE_DOWN	src/look.h	25;"	d
+CTL_CODE	src/devioctl.h	101;"	d
+CURRENT_VERSION	src/look.cpp	62;"	d	file:
+Cdb	src/ntddscsi.h	/^    UCHAR Cdb[16];$/;"	m	struct:_SCSI_PASS_THROUGH
+Cdb	src/ntddscsi.h	/^    UCHAR Cdb[16];$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+CdbLength	src/ntddscsi.h	/^    UCHAR CdbLength;$/;"	m	struct:_SCSI_PASS_THROUGH
+CdbLength	src/ntddscsi.h	/^    UCHAR CdbLength;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+CmdQueue	src/scsidata.h	/^		unsigned char CmdQueue:1;$/;"	m	struct:__anon3::__anon9
+CommonBufferPa	src/ntddscsi.h	/^    LARGE_INTEGER CommonBufferPa;$/;"	m	struct:_DUMP_POINTERS
+CommonBufferSize	src/ntddscsi.h	/^    ULONG CommonBufferSize;$/;"	m	struct:_DUMP_POINTERS
+CommonBufferVa	src/ntddscsi.h	/^    PVOID CommonBufferVa;$/;"	m	struct:_DUMP_POINTERS
+ControlCode	src/ntddscsi.h	/^        ULONG ControlCode;$/;"	m	struct:_SRB_IO_CONTROL
+ConvertStringToHex	src/ConvTools.cpp	/^bool	ConvertStringToHex(unsigned char* s,int size,unsigned int *value)$/;"	f
+DATA_TRANSFER_ELEMENT_DESCRIPTOR	src/scsidata.h	/^	} DATA_TRANSFER_ELEMENT_DESCRIPTOR,*PDATA_TRANSFER_ELEMENT_DESCRIPTOR;$/;"	t	typeref:struct:__anon29
+DBR	src/scsidata.h	/^		unsigned char	DBR:1;$/;"	m	struct:__anon19::__anon22
+DD_SCSI_DEVICE_NAME	src/ntddscsi.h	68;"	d
+DEVICE_CONFIGURATION_PAGE	src/scsidata.h	/^} DEVICE_CONFIGURATION_PAGE,*PDEVICE_CONFIGURATION_PAGE;$/;"	t	typeref:struct:__anon19
+DEVICE_TYPE	src/devioctl.h	35;"	d
+DEVICE_TYPE_FROM_CTL_CODE	src/devioctl.h	108;"	d
+DISK_BUFFER_SIZE	src/look.h	22;"	d
+DISPLAY_NEXT	src/look.h	24;"	d
+DONT_DISPLAY	src/look.h	26;"	d
+DPO_DONT_LOAD_IN_CACHE	src/scsidata.h	167;"	d
+DPO_LOAD_IN_CACHE	src/scsidata.h	168;"	d
+DUMP_POINTERS	src/ntddscsi.h	/^} DUMP_POINTERS, *PDUMP_POINTERS;$/;"	t	typeref:struct:_DUMP_POINTERS
+DWORD32	src/basetsd.h	/^typedef unsigned int DWORD32, *PDWORD32;$/;"	t
+DWORD64	src/basetsd.h	/^typedef unsigned __int64 DWORD64, *PDWORD64;$/;"	t
+DWORD_PTR	src/basetsd.h	/^typedef ULONG_PTR DWORD_PTR, *PDWORD_PTR;$/;"	t
+DWORD_WIDE	src/look.h	30;"	d
+DataBuffer	src/ntddscsi.h	/^    PVOID DataBuffer;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+DataBufferOffset	src/ntddscsi.h	/^    ULONG* DataBufferOffset;$/;"	m	struct:_SCSI_PASS_THROUGH
+DataIn	src/ntddscsi.h	/^    UCHAR DataIn;$/;"	m	struct:_SCSI_PASS_THROUGH
+DataIn	src/ntddscsi.h	/^    UCHAR DataIn;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+DataTransferLength	src/ntddscsi.h	/^    ULONG DataTransferLength;$/;"	m	struct:_SCSI_PASS_THROUGH
+DataTransferLength	src/ntddscsi.h	/^    ULONG DataTransferLength;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+DeviceClaimed	src/ntddscsi.h	/^    BOOLEAN DeviceClaimed;$/;"	m	struct:_SCSI_INQUIRY_DATA
+DeviceObject	src/ntddscsi.h	/^    PVOID DeviceObject;$/;"	m	struct:_DUMP_POINTERS
+DisplayHexLines	src/DisplayHexLine.cpp	/^void	DisplayHexLines(unsigned char* inBuffer,int position,int bytesRead,int width)$/;"	f
+DriveHexDump	src/DisplayDiskSector.cpp	/^bool	DriveHexDump(int numLines,int width)$/;"	f
+DumpData	src/ntddscsi.h	/^    PVOID DumpData;$/;"	m	struct:_DUMP_POINTERS
+DumpHexMem	src/DumpHexMem.cpp	/^void	DumpHexMem(int outfile,char* memory,unsigned long dumpSize)$/;"	f
+DumpHexToFile	src/dumphextofile.cpp	/^bool	DumpHexToFile(int infile,int start,int end,int width,char* filename)$/;"	f
+ECMAVersion	src/scsidata.h	/^		unsigned char ECMAVersion:3;$/;"	m	struct:__anon3::__anon6
+ELEMENT_STATUS_DATA	src/scsidata.h	/^	} ELEMENT_STATUS_DATA,*PELEMENT_STATUS_DATA;$/;"	t	typeref:struct:__anon23
+ELEMENT_STATUS_PAGE	src/scsidata.h	/^	} ELEMENT_STATUS_PAGE,*PELEMENT_STATUS_PAGE;$/;"	t	typeref:struct:__anon24
+END_OF_DATA	src/scsidata.h	/^	END_OF_DATA	= 0x03,$/;"	e	enum:__anon36
+ElementAddrLSB	src/scsidata.h	/^	unsigned char	ElementAddrLSB;$/;"	m	struct:__anon26
+ElementAddrLSB	src/scsidata.h	/^	unsigned char	ElementAddrLSB;$/;"	m	struct:__anon29
+ElementAddrMSB	src/scsidata.h	/^	unsigned char	ElementAddrMSB;$/;"	m	struct:__anon26
+ElementAddrMSB	src/scsidata.h	/^	unsigned char	ElementAddrMSB;$/;"	m	struct:__anon29
+ElementDescLenLSB	src/scsidata.h	/^	unsigned char	ElementDescLenLSB;$/;"	m	struct:__anon24
+ElementDescLenMSB	src/scsidata.h	/^	unsigned char	ElementDescLenMSB;$/;"	m	struct:__anon24
+ElementTypeCode	src/scsidata.h	/^	unsigned char	ElementTypeCode;$/;"	m	struct:__anon24
+EndServ	src/scsidata.h	/^		unsigned char EndServ:1;$/;"	m	struct:__anon3::__anon8
+FAR	src/ntddscsi.h	41;"	d
+FAR	src/ntddscsi.h	43;"	d
+FILEMARKS	src/scsidata.h	/^	FILEMARKS	= 0x01,$/;"	e	enum:__anon36
+FILE_ANY_ACCESS	src/devioctl.h	134;"	d
+FILE_DEVICE_8042_PORT	src/devioctl.h	75;"	d
+FILE_DEVICE_ACPI	src/devioctl.h	86;"	d
+FILE_DEVICE_BATTERY	src/devioctl.h	77;"	d
+FILE_DEVICE_BEEP	src/devioctl.h	37;"	d
+FILE_DEVICE_BUS_EXTENDER	src/devioctl.h	78;"	d
+FILE_DEVICE_CD_ROM	src/devioctl.h	38;"	d
+FILE_DEVICE_CD_ROM_FILE_SYSTEM	src/devioctl.h	39;"	d
+FILE_DEVICE_CHANGER	src/devioctl.h	84;"	d
+FILE_DEVICE_CONTROLLER	src/devioctl.h	40;"	d
+FILE_DEVICE_DATALINK	src/devioctl.h	41;"	d
+FILE_DEVICE_DFS	src/devioctl.h	42;"	d
+FILE_DEVICE_DFS_FILE_SYSTEM	src/devioctl.h	89;"	d
+FILE_DEVICE_DFS_VOLUME	src/devioctl.h	90;"	d
+FILE_DEVICE_DISK	src/devioctl.h	43;"	d
+FILE_DEVICE_DISK_FILE_SYSTEM	src/devioctl.h	44;"	d
+FILE_DEVICE_DVD	src/devioctl.h	87;"	d
+FILE_DEVICE_FILE_SYSTEM	src/devioctl.h	45;"	d
+FILE_DEVICE_FULLSCREEN_VIDEO	src/devioctl.h	88;"	d
+FILE_DEVICE_INPORT_PORT	src/devioctl.h	46;"	d
+FILE_DEVICE_KEYBOARD	src/devioctl.h	47;"	d
+FILE_DEVICE_KS	src/devioctl.h	83;"	d
+FILE_DEVICE_KSEC	src/devioctl.h	93;"	d
+FILE_DEVICE_MAILSLOT	src/devioctl.h	48;"	d
+FILE_DEVICE_MASS_STORAGE	src/devioctl.h	81;"	d
+FILE_DEVICE_MIDI_IN	src/devioctl.h	49;"	d
+FILE_DEVICE_MIDI_OUT	src/devioctl.h	50;"	d
+FILE_DEVICE_MODEM	src/devioctl.h	79;"	d
+FILE_DEVICE_MOUSE	src/devioctl.h	51;"	d
+FILE_DEVICE_MULTI_UNC_PROVIDER	src/devioctl.h	52;"	d
+FILE_DEVICE_NAMED_PIPE	src/devioctl.h	53;"	d
+FILE_DEVICE_NETWORK	src/devioctl.h	54;"	d
+FILE_DEVICE_NETWORK_BROWSER	src/devioctl.h	55;"	d
+FILE_DEVICE_NETWORK_FILE_SYSTEM	src/devioctl.h	56;"	d
+FILE_DEVICE_NETWORK_REDIRECTOR	src/devioctl.h	76;"	d
+FILE_DEVICE_NULL	src/devioctl.h	57;"	d
+FILE_DEVICE_PARALLEL_PORT	src/devioctl.h	58;"	d
+FILE_DEVICE_PHYSICAL_NETCARD	src/devioctl.h	59;"	d
+FILE_DEVICE_PRINTER	src/devioctl.h	60;"	d
+FILE_DEVICE_SCANNER	src/devioctl.h	61;"	d
+FILE_DEVICE_SCREEN	src/devioctl.h	64;"	d
+FILE_DEVICE_SERENUM	src/devioctl.h	91;"	d
+FILE_DEVICE_SERIAL_MOUSE_PORT	src/devioctl.h	62;"	d
+FILE_DEVICE_SERIAL_PORT	src/devioctl.h	63;"	d
+FILE_DEVICE_SMARTCARD	src/devioctl.h	85;"	d
+FILE_DEVICE_SMB	src/devioctl.h	82;"	d
+FILE_DEVICE_SOUND	src/devioctl.h	65;"	d
+FILE_DEVICE_STREAMS	src/devioctl.h	66;"	d
+FILE_DEVICE_TAPE	src/devioctl.h	67;"	d
+FILE_DEVICE_TAPE_FILE_SYSTEM	src/devioctl.h	68;"	d
+FILE_DEVICE_TERMSRV	src/devioctl.h	92;"	d
+FILE_DEVICE_TRANSPORT	src/devioctl.h	69;"	d
+FILE_DEVICE_UNKNOWN	src/devioctl.h	70;"	d
+FILE_DEVICE_VDM	src/devioctl.h	80;"	d
+FILE_DEVICE_VIDEO	src/devioctl.h	71;"	d
+FILE_DEVICE_VIRTUAL_DISK	src/devioctl.h	72;"	d
+FILE_DEVICE_WAVE_IN	src/devioctl.h	73;"	d
+FILE_DEVICE_WAVE_OUT	src/devioctl.h	74;"	d
+FILE_READ_ACCESS	src/devioctl.h	136;"	d
+FILE_SPECIAL_ACCESS	src/devioctl.h	135;"	d
+FILE_WRITE_ACCESS	src/devioctl.h	137;"	d
+FIND_LAST	src/look.h	34;"	d
+FIND_LAST	src/look.h	39;"	d
+FRUC	src/scsidata.h	/^	unsigned char	FRUC;$/;"	m	struct:__anon33
+FUA_FORCE_ACCESS	src/scsidata.h	159;"	d
+FUA_USE_CACHE	src/scsidata.h	160;"	d
+FeatureDisplay	src/PlatformSpec.cpp	/^void	FeatureDisplay(void)$/;"	f
+FeatureTidy	src/PlatformSpec.cpp	/^void	FeatureTidy(void)$/;"	f
+Filler	src/scsidata.h	/^	ULONG				Filler;      \/\/ realign buffer to double word boundary$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT_WITH_BUFFER
+FindBlockedMaskString	src/FindString.cpp	/^bool	FindBlockedMaskString(int infile,unsigned char* token,unsigned char* mask, int tokenSize,int block_size,bool fromStart)$/;"	f
+FindMaskedString	src/FindString.cpp	/^bool	FindMaskedString(int infile,unsigned char* token,unsigned char* mask, int tokenSize,bool fromStart,bool fromLastSearch)$/;"	f
+FindPrevTextPage	src/FindPrevTextPage.cpp	/^void	FindPrevTextPage(int infile,int numLines,bool atEnd)$/;"	f
+FindString	src/FindString.cpp	/^bool	FindString(int infile,unsigned char* token,int tokenSize,bool fromStart,bool fromLastSearch)$/;"	f
+FirstElemAddrLSB	src/scsidata.h	/^	unsigned char	FirstElemAddrLSB;$/;"	m	struct:__anon23
+FirstElemAddrMSB	src/scsidata.h	/^	unsigned char	FirstElemAddrMSB;$/;"	m	struct:__anon23
+GenHexDWord	src/ConvTools.cpp	/^void	GenHexDWord(unsigned int in, unsigned char* out)$/;"	f
+GenHexWord	src/ConvTools.cpp	/^void	GenHexWord(unsigned short in, unsigned char* out)$/;"	f
+GenLowerHex	src/ConvTools.cpp	/^void	GenLowerHex(unsigned char in,unsigned char *highNibble,unsigned char *lowNibble)$/;"	f
+GenUpperHex	src/ConvTools.cpp	/^void	GenUpperHex(unsigned char in,unsigned char *highNibble,unsigned char *lowNibble)$/;"	f
+GetByte1	src/scsidata.h	39;"	d
+GetByte2	src/scsidata.h	40;"	d
+GetByte3	src/scsidata.h	41;"	d
+GetByte4	src/scsidata.h	42;"	d
+GetToken	src/GetToken.cpp	/^int	GetToken(unsigned char* buffer,int start,unsigned char* outBuffer,bool escapeChars,int *nextChar)$/;"	f
+GetValue	src/ConvTools.cpp	/^bool	GetValue( unsigned char* token, int tokenSize,int &value)$/;"	f
+HALF_PTR	src/basetsd.h	/^typedef int HALF_PTR, *PHALF_PTR;$/;"	t
+HALF_PTR	src/basetsd.h	/^typedef short HALF_PTR, *PHALF_PTR;$/;"	t
+HANDLE	src/look.h	33;"	d
+HANDLE_PTR	src/basetsd.h	/^typedef _W64 unsigned long HANDLE_PTR;$/;"	t
+HANDLE_PTR	src/basetsd.h	/^typedef unsigned __int64 HANDLE_PTR;$/;"	t
+HEX_MODE	src/look.h	14;"	d
+HandleToLong	src/basetsd.h	/^HandleToLong($/;"	f
+HandleToLong	src/basetsd.h	253;"	d
+HandleToUlong	src/basetsd.h	/^HandleToUlong($/;"	f
+HandleToUlong	src/basetsd.h	252;"	d
+HeaderLength	src/ntddscsi.h	/^        ULONG HeaderLength;$/;"	m	struct:_SRB_IO_CONTROL
+HexBit	src/DumpHexMem.cpp	/^static char	HexBit[16] = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};$/;"	v	file:
+HexBlockDump	src/hexdump.cpp	/^bool	HexBlockDump(int infile,int numBytes,int width)$/;"	f
+HexDump	src/hexdump.cpp	/^bool	HexDump(int infile,int numLines,int width)$/;"	f
+IDVaild	src/scsidata.h	/^		unsigned char IDVaild:1;$/;"	m	struct:__anon29::__anon31
+INQUIRY	src/scsidata.h	81;"	d
+INQUIRY_DATA	src/scsidata.h	/^} INQUIRY_DATA, *PINQUIRY_DATA;$/;"	t	typeref:struct:__anon3
+INT32	src/basetsd.h	/^typedef int INT32, *PINT32;$/;"	t
+INT64	src/basetsd.h	/^typedef __int64 INT64,  *PINT64;$/;"	t
+INT_PTR	src/basetsd.h	/^    typedef [public] __int3264 INT_PTR, *PINT_PTR;$/;"	t
+INT_PTR	src/basetsd.h	/^    typedef _W64 int INT_PTR, *PINT_PTR;$/;"	t
+INT_PTR	src/basetsd.h	/^    typedef __int64 INT_PTR, *PINT_PTR;$/;"	t
+IOCTL_IDE_PASS_THROUGH	src/ntddscsi.h	87;"	d
+IOCTL_SCSI_BASE	src/ntddscsi.h	66;"	d
+IOCTL_SCSI_FREE_DUMP_POINTERS	src/ntddscsi.h	86;"	d
+IOCTL_SCSI_GET_ADDRESS	src/ntddscsi.h	83;"	d
+IOCTL_SCSI_GET_CAPABILITIES	src/ntddscsi.h	81;"	d
+IOCTL_SCSI_GET_DUMP_POINTERS	src/ntddscsi.h	85;"	d
+IOCTL_SCSI_GET_INQUIRY_DATA	src/ntddscsi.h	80;"	d
+IOCTL_SCSI_MINIPORT	src/ntddscsi.h	79;"	d
+IOCTL_SCSI_PASS_THROUGH	src/ntddscsi.h	78;"	d
+IOCTL_SCSI_PASS_THROUGH_DIRECT	src/ntddscsi.h	82;"	d
+IOCTL_SCSI_RESCAN_BUS	src/ntddscsi.h	84;"	d
+IO_SCSI_CAPABILITIES	src/ntddscsi.h	/^} IO_SCSI_CAPABILITIES, *PIO_SCSI_CAPABILITIES;$/;"	t	typeref:struct:_IO_SCSI_CAPABILITIES
+ISOVersion	src/scsidata.h	/^		unsigned char ISOVersion:2;$/;"	m	struct:__anon3::__anon6
+InitiatorBusId	src/ntddscsi.h	/^    UCHAR InitiatorBusId;$/;"	m	struct:_SCSI_BUS_DATA
+Inquiry	src/Inquiry.cpp	/^int	Inquiry(HANDLE fileHandle,char *buffer,char pageCode,int bufferLength)$/;"	f
+InquiryData	src/ntddscsi.h	/^    UCHAR InquiryData[1];$/;"	m	struct:_SCSI_INQUIRY_DATA
+InquiryDataLength	src/ntddscsi.h	/^    ULONG InquiryDataLength;$/;"	m	struct:_SCSI_INQUIRY_DATA
+InquiryDataOffset	src/ntddscsi.h	/^    ULONG InquiryDataOffset;$/;"	m	struct:_SCSI_BUS_DATA
+IntToPtr	src/basetsd.h	/^IntToPtr($/;"	f
+IntToPtr	src/basetsd.h	261;"	d
+K_64	src/look.h	19;"	d
+K_64_IN_SECTORS	src/look.h	20;"	d
+LIBRARY	src/scsidata.h	/^} LIBRARY, *PLIBRARY;$/;"	t	typeref:struct:__anon2
+LOAD_UNLOAD	src/scsidata.h	73;"	d
+LONG32	src/basetsd.h	/^typedef int LONG32, *PLONG32;$/;"	t
+LONG64	src/basetsd.h	/^typedef __int64 LONG64, *PLONG64;$/;"	t
+LONG_PTR	src/basetsd.h	/^    typedef [public] __int3264 LONG_PTR, *PLONG_PTR;$/;"	t
+LONG_PTR	src/basetsd.h	/^    typedef _W64 long LONG_PTR, *PLONG_PTR;$/;"	t
+LONG_PTR	src/basetsd.h	/^    typedef __int64 LONG_PTR, *PLONG_PTR;$/;"	t
+LUValid	src/scsidata.h	/^		unsigned char LUValid:1;$/;"	m	struct:__anon29::__anon31
+Length	src/ntddscsi.h	/^        ULONG Length;$/;"	m	struct:_SRB_IO_CONTROL
+Length	src/ntddscsi.h	/^    ULONG Length;$/;"	m	struct:_IO_SCSI_CAPABILITIES
+Length	src/ntddscsi.h	/^    ULONG Length;$/;"	m	struct:_SCSI_ADDRESS
+Length	src/ntddscsi.h	/^    USHORT Length;$/;"	m	struct:_SCSI_PASS_THROUGH
+Length	src/ntddscsi.h	/^    USHORT Length;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+Linked	src/scsidata.h	/^		unsigned char Linked:1;$/;"	m	struct:__anon3::__anon9
+LogicalBlockAddr	src/scsidata.h	/^	unsigned char	LogicalBlockAddr[4];$/;"	m	struct:__anon35
+LongToHandle	src/basetsd.h	/^LongToHandle($/;"	f
+LongToHandle	src/basetsd.h	254;"	d
+LongToPtr	src/basetsd.h	/^LongToPtr($/;"	f
+LongToPtr	src/basetsd.h	263;"	d
+LowerHexBits	src/ConvTools.cpp	/^static unsigned char LowerHexBits[] = {'0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f'};$/;"	v	file:
+Lun	src/ntddscsi.h	/^    UCHAR Lun;$/;"	m	struct:_SCSI_ADDRESS
+Lun	src/ntddscsi.h	/^    UCHAR Lun;$/;"	m	struct:_SCSI_INQUIRY_DATA
+Lun	src/ntddscsi.h	/^    UCHAR Lun;$/;"	m	struct:_SCSI_PASS_THROUGH
+Lun	src/ntddscsi.h	/^    UCHAR Lun;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+MAXHALF_PTR	src/basetsd.h	280;"	d
+MAXINT_PTR	src/basetsd.h	272;"	d
+MAXLONG_PTR	src/basetsd.h	276;"	d
+MAXUHALF_PTR	src/basetsd.h	279;"	d
+MAXUINT_PTR	src/basetsd.h	271;"	d
+MAXULONG_PTR	src/basetsd.h	275;"	d
+MAX_DRIVES_PER_LIBRARY	src/scsidata.h	27;"	d
+METHOD_BUFFERED	src/devioctl.h	114;"	d
+METHOD_IN_DIRECT	src/devioctl.h	115;"	d
+METHOD_NEITHER	src/devioctl.h	117;"	d
+METHOD_OUT_DIRECT	src/devioctl.h	116;"	d
+MINHALF_PTR	src/basetsd.h	281;"	d
+MININT_PTR	src/basetsd.h	273;"	d
+MINLONG_PTR	src/basetsd.h	277;"	d
+MODE_SELECT_10	src/scsidata.h	79;"	d
+MODE_SELECT_6	src/scsidata.h	78;"	d
+MODE_SELECT_HEADER_10	src/scsidata.h	/^} MODE_SELECT_HEADER_10,*PMODE_SELECT_HEADER_10;$/;"	t	typeref:struct:__anon12
+MODE_SELECT_HEADER_6	src/scsidata.h	/^} MODE_SELECT_HEADER_6,*PMODE_SELECT_HEADER_6;$/;"	t	typeref:struct:__anon10
+MODE_SENSE_10	src/scsidata.h	77;"	d
+MODE_SENSE_6	src/scsidata.h	76;"	d
+MODE_SENSE_HEADER_10	src/scsidata.h	/^} MODE_SENSE_HEADER_10,*PMODE_SENSE_HEADER_10;$/;"	t	typeref:struct:__anon16
+MODE_SENSE_HEADER_6	src/scsidata.h	/^} MODE_SENSE_HEADER_6,*PMODE_SENSE_HEADER_6;$/;"	t	typeref:struct:__anon14
+MOVE_MEDIUM	src/scsidata.h	74;"	d
+MS_ALL_AVAILABLE_PAGES	src/scsidata.h	257;"	d
+MS_BLOCK_DESCRIPTOR	src/scsidata.h	/^} MS_BLOCK_DESCRIPTOR,*PMS_BLOCK_DESCRIPTOR;$/;"	t	typeref:struct:__anon18
+MS_CONTROL_MODE_PAGE	src/scsidata.h	251;"	d
+MS_DATA_COMPRESS_PAGE	src/scsidata.h	252;"	d
+MS_DEVICE_CONFIG_PAGE	src/scsidata.h	253;"	d
+MS_DISS_RECON_PAGE	src/scsidata.h	250;"	d
+MS_MEDIUM_PARTION_PAGE	src/scsidata.h	254;"	d
+MS_NON_PAGE_FORMAT	src/scsidata.h	248;"	d
+MS_READ_WRITE_ER_PAGE	src/scsidata.h	249;"	d
+MS_VENDOR_UNIQUE_1_PAGE	src/scsidata.h	255;"	d
+MS_VENDOR_UNIQUE_2_PAGE	src/scsidata.h	256;"	d
+MakeInt2	src/scsidata.h	35;"	d
+MakeInt3	src/scsidata.h	36;"	d
+MakeInt4	src/scsidata.h	37;"	d
+MappedRegisterBase	src/ntddscsi.h	/^    PVOID MappedRegisterBase;$/;"	m	struct:_DUMP_POINTERS
+MaximumPhysicalPages	src/ntddscsi.h	/^    ULONG MaximumPhysicalPages;$/;"	m	struct:_IO_SCSI_CAPABILITIES
+MaximumTransferLength	src/ntddscsi.h	/^    ULONG MaximumTransferLength;$/;"	m	struct:_IO_SCSI_CAPABILITIES
+MediaChanger	src/scsidata.h	/^		unsigned char MediaChanger:1;$/;"	m	struct:__anon3::__anon8
+MultiPort	src/scsidata.h	/^		unsigned char MultiPort:1;$/;"	m	struct:__anon3::__anon8
+NextInquiryDataOffset	src/ntddscsi.h	/^    ULONG NextInquiryDataOffset;$/;"	m	struct:_SCSI_INQUIRY_DATA
+NormACA	src/scsidata.h	/^		unsigned char NormACA:1;$/;"	m	struct:__anon3::__anon7
+NumElemReptLSB	src/scsidata.h	/^	unsigned char	NumElemReptLSB;$/;"	m	struct:__anon23
+NumElemReptMSB	src/scsidata.h	/^	unsigned char	NumElemReptMSB;$/;"	m	struct:__anon23
+NumberOfBuses	src/ntddscsi.h	/^    UCHAR NumberOfBuses;$/;"	m	struct:_SCSI_ADAPTER_BUS_INFO
+NumberOfLogicalUnits	src/ntddscsi.h	/^    UCHAR NumberOfLogicalUnits;$/;"	m	struct:_SCSI_BUS_DATA
+OpenDisk	src/PlatformSpec.cpp	/^void	OpenDisk(char* progname,char* diskname)$/;"	f
+PDATA_TRANSFER_ELEMENT_DESCRIPTOR	src/scsidata.h	/^	} DATA_TRANSFER_ELEMENT_DESCRIPTOR,*PDATA_TRANSFER_ELEMENT_DESCRIPTOR;$/;"	t	typeref:struct:__anon29
+PDEVICE_CONFIGURATION_PAGE	src/scsidata.h	/^} DEVICE_CONFIGURATION_PAGE,*PDEVICE_CONFIGURATION_PAGE;$/;"	t	typeref:struct:__anon19
+PDUMP_POINTERS	src/ntddscsi.h	/^} DUMP_POINTERS, *PDUMP_POINTERS;$/;"	t	typeref:struct:_DUMP_POINTERS
+PDWORD32	src/basetsd.h	/^typedef unsigned int DWORD32, *PDWORD32;$/;"	t
+PDWORD64	src/basetsd.h	/^typedef unsigned __int64 DWORD64, *PDWORD64;$/;"	t
+PDWORD_PTR	src/basetsd.h	/^typedef ULONG_PTR DWORD_PTR, *PDWORD_PTR;$/;"	t
+PELEMENT_STATUS_DATA	src/scsidata.h	/^	} ELEMENT_STATUS_DATA,*PELEMENT_STATUS_DATA;$/;"	t	typeref:struct:__anon23
+PELEMENT_STATUS_PAGE	src/scsidata.h	/^	} ELEMENT_STATUS_PAGE,*PELEMENT_STATUS_PAGE;$/;"	t	typeref:struct:__anon24
+PHALF_PTR	src/basetsd.h	/^typedef int HALF_PTR, *PHALF_PTR;$/;"	t
+PHALF_PTR	src/basetsd.h	/^typedef short HALF_PTR, *PHALF_PTR;$/;"	t
+PINQUIRY_DATA	src/scsidata.h	/^} INQUIRY_DATA, *PINQUIRY_DATA;$/;"	t	typeref:struct:__anon3
+PINT32	src/basetsd.h	/^typedef int INT32, *PINT32;$/;"	t
+PINT64	src/basetsd.h	/^typedef __int64 INT64,  *PINT64;$/;"	t
+PINT_PTR	src/basetsd.h	/^    typedef [public] __int3264 INT_PTR, *PINT_PTR;$/;"	t
+PINT_PTR	src/basetsd.h	/^    typedef _W64 int INT_PTR, *PINT_PTR;$/;"	t
+PINT_PTR	src/basetsd.h	/^    typedef __int64 INT_PTR, *PINT_PTR;$/;"	t
+PIO_SCSI_CAPABILITIES	src/ntddscsi.h	/^} IO_SCSI_CAPABILITIES, *PIO_SCSI_CAPABILITIES;$/;"	t	typeref:struct:_IO_SCSI_CAPABILITIES
+PLIBRARY	src/scsidata.h	/^} LIBRARY, *PLIBRARY;$/;"	t	typeref:struct:__anon2
+PLONG32	src/basetsd.h	/^typedef int LONG32, *PLONG32;$/;"	t
+PLONG64	src/basetsd.h	/^typedef __int64 LONG64, *PLONG64;$/;"	t
+PLONG_PTR	src/basetsd.h	/^    typedef [public] __int3264 LONG_PTR, *PLONG_PTR;$/;"	t
+PLONG_PTR	src/basetsd.h	/^    typedef _W64 long LONG_PTR, *PLONG_PTR;$/;"	t
+PLONG_PTR	src/basetsd.h	/^    typedef __int64 LONG_PTR, *PLONG_PTR;$/;"	t
+PMODE_SELECT_HEADER_10	src/scsidata.h	/^} MODE_SELECT_HEADER_10,*PMODE_SELECT_HEADER_10;$/;"	t	typeref:struct:__anon12
+PMODE_SELECT_HEADER_6	src/scsidata.h	/^} MODE_SELECT_HEADER_6,*PMODE_SELECT_HEADER_6;$/;"	t	typeref:struct:__anon10
+PMODE_SENSE_HEADER_10	src/scsidata.h	/^} MODE_SENSE_HEADER_10,*PMODE_SENSE_HEADER_10;$/;"	t	typeref:struct:__anon16
+PMODE_SENSE_HEADER_6	src/scsidata.h	/^} MODE_SENSE_HEADER_6,*PMODE_SENSE_HEADER_6;$/;"	t	typeref:struct:__anon14
+PMS_BLOCK_DESCRIPTOR	src/scsidata.h	/^} MS_BLOCK_DESCRIPTOR,*PMS_BLOCK_DESCRIPTOR;$/;"	t	typeref:struct:__anon18
+PREAD_CAPACITY_DATA	src/scsidata.h	/^	} READ_CAPACITY_DATA,*PREAD_CAPACITY_DATA;$/;"	t	typeref:struct:__anon35
+PSCSI_ADAPTER_BUS_INFO	src/ntddscsi.h	/^} SCSI_ADAPTER_BUS_INFO, *PSCSI_ADAPTER_BUS_INFO;$/;"	t	typeref:struct:_SCSI_ADAPTER_BUS_INFO
+PSCSI_ADDRESS	src/ntddscsi.h	/^}SCSI_ADDRESS, *PSCSI_ADDRESS;$/;"	t	typeref:struct:_SCSI_ADDRESS
+PSCSI_BUS_DATA	src/ntddscsi.h	/^}SCSI_BUS_DATA, *PSCSI_BUS_DATA;$/;"	t	typeref:struct:_SCSI_BUS_DATA
+PSCSI_INQUIRY_DATA	src/ntddscsi.h	/^}SCSI_INQUIRY_DATA, *PSCSI_INQUIRY_DATA;$/;"	t	typeref:struct:_SCSI_INQUIRY_DATA
+PSCSI_PASS_THROUGH	src/ntddscsi.h	/^}SCSI_PASS_THROUGH, *PSCSI_PASS_THROUGH;$/;"	t	typeref:struct:_SCSI_PASS_THROUGH
+PSCSI_PASS_THROUGH_DIRECT	src/ntddscsi.h	/^}SCSI_PASS_THROUGH_DIRECT, *PSCSI_PASS_THROUGH_DIRECT;$/;"	t	typeref:struct:_SCSI_PASS_THROUGH_DIRECT
+PSCSI_PASS_THROUGH_DIRECT_WITH_BUFFER	src/scsidata.h	/^	} SCSI_PASS_THROUGH_DIRECT_WITH_BUFFER, *PSCSI_PASS_THROUGH_DIRECT_WITH_BUFFER;$/;"	t	typeref:struct:_SCSI_PASS_THROUGH_DIRECT_WITH_BUFFER
+PSENSE_DATA	src/scsidata.h	/^	} SENSE_DATA, *PSENSE_DATA;$/;"	t	typeref:struct:__anon33
+PSIZE_T	src/basetsd.h	/^typedef ULONG_PTR SIZE_T, *PSIZE_T;$/;"	t
+PSRB_IO_CONTROL	src/ntddscsi.h	/^} SRB_IO_CONTROL, *PSRB_IO_CONTROL;$/;"	t	typeref:struct:_SRB_IO_CONTROL
+PSSIZE_T	src/basetsd.h	/^typedef LONG_PTR SSIZE_T, *PSSIZE_T;$/;"	t
+PSTORAGE_ELEMENT_DESCRIPTOR	src/scsidata.h	/^	} STORAGE_ELEMENT_DESCRIPTOR,*PSTORAGE_ELEMENT_DESCRIPTOR;$/;"	t	typeref:struct:__anon26
+PUHALF_PTR	src/basetsd.h	/^typedef unsigned int UHALF_PTR, *PUHALF_PTR;$/;"	t
+PUHALF_PTR	src/basetsd.h	/^typedef unsigned short UHALF_PTR, *PUHALF_PTR;$/;"	t
+PUINT32	src/basetsd.h	/^typedef unsigned int UINT32, *PUINT32;$/;"	t
+PUINT64	src/basetsd.h	/^typedef unsigned __int64 UINT64,  *PUINT64;$/;"	t
+PUINT_PTR	src/basetsd.h	/^    typedef [public] unsigned __int3264 UINT_PTR, *PUINT_PTR;$/;"	t
+PUINT_PTR	src/basetsd.h	/^    typedef _W64 unsigned int UINT_PTR, *PUINT_PTR;$/;"	t
+PUINT_PTR	src/basetsd.h	/^    typedef unsigned __int64 UINT_PTR, *PUINT_PTR;$/;"	t
+PULONG32	src/basetsd.h	/^typedef unsigned int ULONG32, *PULONG32;$/;"	t
+PULONG64	src/basetsd.h	/^typedef unsigned __int64 ULONG64, *PULONG64;$/;"	t
+PULONG_PTR	src/basetsd.h	/^    typedef [public] unsigned __int3264 ULONG_PTR, *PULONG_PTR;$/;"	t
+PULONG_PTR	src/basetsd.h	/^    typedef _W64 unsigned long ULONG_PTR, *PULONG_PTR;$/;"	t
+PULONG_PTR	src/basetsd.h	/^    typedef unsigned __int64 ULONG_PTR, *PULONG_PTR;$/;"	t
+PVolTag	src/scsidata.h	/^		unsigned char PVolTag:1;$/;"	m	struct:__anon24::__anon25
+ParseCommand	src/look.cpp	/^int	ParseCommand(int infile,int &screenSize,int &mode,int &width)$/;"	f
+PathId	src/ntddscsi.h	/^    UCHAR PathId;$/;"	m	struct:_SCSI_ADDRESS
+PathId	src/ntddscsi.h	/^    UCHAR PathId;$/;"	m	struct:_SCSI_INQUIRY_DATA
+PathId	src/ntddscsi.h	/^    UCHAR PathId;$/;"	m	struct:_SCSI_PASS_THROUGH
+PathId	src/ntddscsi.h	/^    UCHAR PathId;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+PortNumber	src/ntddscsi.h	/^    UCHAR PortNumber;$/;"	m	struct:_SCSI_ADDRESS
+ProductID	src/scsidata.h	/^	unsigned char	ProductID[16];$/;"	m	struct:__anon3
+PtrToInt	src/basetsd.h	/^PtrToInt($/;"	f
+PtrToInt	src/basetsd.h	258;"	d
+PtrToLong	src/basetsd.h	/^PtrToLong($/;"	f
+PtrToLong	src/basetsd.h	256;"	d
+PtrToShort	src/basetsd.h	/^PtrToShort($/;"	f
+PtrToShort	src/basetsd.h	260;"	d
+PtrToUint	src/basetsd.h	/^PtrToUint($/;"	f
+PtrToUint	src/basetsd.h	257;"	d
+PtrToUlong	src/basetsd.h	/^PtrToUlong($/;"	f
+PtrToUlong	src/basetsd.h	255;"	d
+PtrToUshort	src/basetsd.h	/^PtrToUshort($/;"	f
+PtrToUshort	src/basetsd.h	259;"	d
+RA_ACTUAL_ADDRESS	src/scsidata.h	144;"	d
+RA_RELATIVE_ADDRESS	src/scsidata.h	145;"	d
+RBO	src/scsidata.h	/^		unsigned char	RBO:1;$/;"	m	struct:__anon19::__anon22
+READ	src/scsidata.h	67;"	d
+READ_10	src/scsidata.h	68;"	d
+READ_CAPACITY	src/scsidata.h	82;"	d
+READ_CAPACITY_DATA	src/scsidata.h	/^	} READ_CAPACITY_DATA,*PREAD_CAPACITY_DATA;$/;"	t	typeref:struct:__anon35
+READ_ELEMENT_STATUS	src/scsidata.h	75;"	d
+READ_FILE_STATUS	src/look.h	37;"	d
+READ_FILE_STATUS	src/look.h	42;"	d
+RES_ALL_ELEMENTS	src/scsidata.h	355;"	d
+RES_DATA_TRANSFER_ELEMENT	src/scsidata.h	359;"	d
+RES_IMPORT_EXPORT_ELEMENT	src/scsidata.h	358;"	d
+RES_MEDIUM_TRANSPORT_ELEMENT	src/scsidata.h	356;"	d
+RES_STORAGE_ELEMENT	src/scsidata.h	357;"	d
+REW	src/scsidata.h	/^		unsigned char	REW:1;$/;"	m	struct:__anon19::__anon22
+REWIND	src/scsidata.h	72;"	d
+RSmk	src/scsidata.h	/^		unsigned char	RSmk:1;$/;"	m	struct:__anon19::__anon22
+Read	src/PlatformSpec.cpp	/^int	Read(unsigned long blockNumber,char *buffer,int size)$/;"	f
+Read	src/read.cpp	/^int	Read(HANDLE fileHandle,unsigned long blockNumber,char *buffer,int size)$/;"	f
+ReadCapacity	src/ReadCapacity.cpp	/^int	ReadCapacity(HANDLE fileHandle,int firstLBA,char *buffer)$/;"	f
+RelAddr	src/scsidata.h	/^		unsigned char RelAddr:1;$/;"	m	struct:__anon3::__anon9
+RespDataFmt	src/scsidata.h	/^		unsigned char RespDataFmt:4;$/;"	m	struct:__anon3::__anon7
+ReturnCode	src/ntddscsi.h	/^        ULONG ReturnCode;$/;"	m	struct:_SRB_IO_CONTROL
+RevisionID	src/scsidata.h	/^	unsigned char	RevisionID[4];$/;"	m	struct:__anon3
+SCSI_ADAPTER_BUS_INFO	src/ntddscsi.h	/^} SCSI_ADAPTER_BUS_INFO, *PSCSI_ADAPTER_BUS_INFO;$/;"	t	typeref:struct:_SCSI_ADAPTER_BUS_INFO
+SCSI_ADDR	src/scsidata.h	/^} SCSI_ADDR;$/;"	t	typeref:struct:__anon1
+SCSI_ADDRESS	src/ntddscsi.h	/^}SCSI_ADDRESS, *PSCSI_ADDRESS;$/;"	t	typeref:struct:_SCSI_ADDRESS
+SCSI_BUS_DATA	src/ntddscsi.h	/^}SCSI_BUS_DATA, *PSCSI_BUS_DATA;$/;"	t	typeref:struct:_SCSI_BUS_DATA
+SCSI_CHANGER	src/scsidata.h	30;"	d
+SCSI_INQUIRY_DATA	src/ntddscsi.h	/^}SCSI_INQUIRY_DATA, *PSCSI_INQUIRY_DATA;$/;"	t	typeref:struct:_SCSI_INQUIRY_DATA
+SCSI_IOCTL_DATA_IN	src/ntddscsi.h	265;"	d
+SCSI_IOCTL_DATA_OUT	src/ntddscsi.h	264;"	d
+SCSI_IOCTL_DATA_UNSPECIFIED	src/ntddscsi.h	266;"	d
+SCSI_PASS_THROUGH	src/ntddscsi.h	/^}SCSI_PASS_THROUGH, *PSCSI_PASS_THROUGH;$/;"	t	typeref:struct:_SCSI_PASS_THROUGH
+SCSI_PASS_THROUGH_DIRECT	src/ntddscsi.h	/^}SCSI_PASS_THROUGH_DIRECT, *PSCSI_PASS_THROUGH_DIRECT;$/;"	t	typeref:struct:_SCSI_PASS_THROUGH_DIRECT
+SCSI_PASS_THROUGH_DIRECT_WITH_BUFFER	src/scsidata.h	/^	} SCSI_PASS_THROUGH_DIRECT_WITH_BUFFER, *PSCSI_PASS_THROUGH_DIRECT_WITH_BUFFER;$/;"	t	typeref:struct:_SCSI_PASS_THROUGH_DIRECT_WITH_BUFFER
+SCSI_SENSE_ABORTED_COMMAND	src/scsidata.h	117;"	d
+SCSI_SENSE_BLANK_CHECK	src/scsidata.h	114;"	d
+SCSI_SENSE_COPY_ABORTED	src/scsidata.h	116;"	d
+SCSI_SENSE_DATA_PROTECT	src/scsidata.h	113;"	d
+SCSI_SENSE_EQUAL	src/scsidata.h	118;"	d
+SCSI_SENSE_HARDWARE_ERROR	src/scsidata.h	110;"	d
+SCSI_SENSE_ILLEGAL_REQUEST	src/scsidata.h	111;"	d
+SCSI_SENSE_MEDIUM_ERROR	src/scsidata.h	109;"	d
+SCSI_SENSE_MISCOMPARE	src/scsidata.h	120;"	d
+SCSI_SENSE_NOT_READY	src/scsidata.h	108;"	d
+SCSI_SENSE_NO_SENSE	src/scsidata.h	106;"	d
+SCSI_SENSE_RECOVERED_ERROR	src/scsidata.h	107;"	d
+SCSI_SENSE_RESERVED	src/scsidata.h	121;"	d
+SCSI_SENSE_UNIQUE	src/scsidata.h	115;"	d
+SCSI_SENSE_UNIT_ATTENTION	src/scsidata.h	112;"	d
+SCSI_SENSE_VOL_OVERFLOW	src/scsidata.h	119;"	d
+SCSI_TAPE_DRIVE	src/scsidata.h	31;"	d
+SENSE_DATA	src/scsidata.h	/^	} SENSE_DATA, *PSENSE_DATA;$/;"	t	typeref:struct:__anon33
+SETMARKS	src/scsidata.h	/^	SETMARKS	= 0x04$/;"	e	enum:__anon36
+SIZE_T	src/basetsd.h	/^typedef ULONG_PTR SIZE_T, *PSIZE_T;$/;"	t
+SOCF	src/scsidata.h	/^		unsigned char	SOCF:2;$/;"	m	struct:__anon19::__anon22
+SPACE	src/scsidata.h	69;"	d
+SPACE_CODE	src/scsidata.h	/^	} SPACE_CODE;$/;"	t	typeref:enum:__anon36
+SRB_IO_CONTROL	src/ntddscsi.h	/^} SRB_IO_CONTROL, *PSRB_IO_CONTROL;$/;"	t	typeref:struct:_SRB_IO_CONTROL
+SSIZE_T	src/basetsd.h	/^typedef LONG_PTR SSIZE_T, *PSSIZE_T;$/;"	t
+STDOUT	src/BitDump.cpp	15;"	d	file:
+STDOUT	src/BitDump.cpp	18;"	d	file:
+STDOUT	src/DisplayDiskSector.cpp	14;"	d	file:
+STDOUT	src/DisplayDiskSector.cpp	17;"	d	file:
+STDOUT	src/FindPrevTextPage.cpp	15;"	d	file:
+STDOUT	src/FindPrevTextPage.cpp	18;"	d	file:
+STDOUT	src/FindString.cpp	15;"	d	file:
+STDOUT	src/FindString.cpp	19;"	d	file:
+STDOUT	src/TextDump.cpp	14;"	d	file:
+STDOUT	src/TextDump.cpp	17;"	d	file:
+STDOUT	src/dumphextofile.cpp	14;"	d	file:
+STDOUT	src/dumphextofile.cpp	17;"	d	file:
+STDOUT	src/hexdump.cpp	3;"	d	file:
+STDOUT	src/hexdump.cpp	6;"	d	file:
+STDOUT	src/look.cpp	56;"	d	file:
+STDOUT	src/look.cpp	59;"	d	file:
+STORAGE_ELEMENT_DESCRIPTOR	src/scsidata.h	/^	} STORAGE_ELEMENT_DESCRIPTOR,*PSTORAGE_ELEMENT_DESCRIPTOR;$/;"	t	typeref:struct:__anon26
+ScsiStatus	src/ntddscsi.h	/^    UCHAR ScsiStatus;$/;"	m	struct:_SCSI_PASS_THROUGH
+ScsiStatus	src/ntddscsi.h	/^    UCHAR ScsiStatus;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+SenseInfoLength	src/ntddscsi.h	/^    UCHAR SenseInfoLength;$/;"	m	struct:_SCSI_PASS_THROUGH
+SenseInfoLength	src/ntddscsi.h	/^    UCHAR SenseInfoLength;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+SenseInfoOffset	src/ntddscsi.h	/^    ULONG SenseInfoOffset;$/;"	m	struct:_SCSI_PASS_THROUGH
+SenseInfoOffset	src/ntddscsi.h	/^    ULONG SenseInfoOffset;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+SenseKeySpecific	src/scsidata.h	/^	unsigned char	SenseKeySpecific[3];$/;"	m	struct:__anon33
+Signature	src/ntddscsi.h	/^        UCHAR Signature[8];$/;"	m	struct:_SRB_IO_CONTROL
+Spare1	src/ntddscsi.h	/^    UCHAR Spare1[3];$/;"	m	struct:_DUMP_POINTERS
+SupportedAsynchronousEvents	src/ntddscsi.h	/^    ULONG SupportedAsynchronousEvents;$/;"	m	struct:_IO_SCSI_CAPABILITIES
+Sync	src/scsidata.h	/^		unsigned char Sync:1;$/;"	m	struct:__anon3::__anon9
+TAPE_BLOCKS	src/scsidata.h	/^	TAPE_BLOCKS	= 0x00,$/;"	e	enum:__anon36
+TEST_UNIT_READY	src/scsidata.h	80;"	d
+TEXT_MODE	src/look.h	15;"	d
+TaggedQueuing	src/ntddscsi.h	/^    BOOLEAN TaggedQueuing;$/;"	m	struct:_IO_SCSI_CAPABILITIES
+TargetId	src/ntddscsi.h	/^    UCHAR TargetId;$/;"	m	struct:_SCSI_ADDRESS
+TargetId	src/ntddscsi.h	/^    UCHAR TargetId;$/;"	m	struct:_SCSI_INQUIRY_DATA
+TargetId	src/ntddscsi.h	/^    UCHAR TargetId;$/;"	m	struct:_SCSI_PASS_THROUGH
+TargetId	src/ntddscsi.h	/^    UCHAR TargetId;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+TextDump	src/TextDump.cpp	/^bool	TextDump(int infile,int numLines)$/;"	f
+TimeOutValue	src/ntddscsi.h	/^    ULONG TimeOutValue;$/;"	m	struct:_SCSI_PASS_THROUGH
+TimeOutValue	src/ntddscsi.h	/^    ULONG TimeOutValue;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT
+Timeout	src/ntddscsi.h	/^        ULONG Timeout;$/;"	m	struct:_SRB_IO_CONTROL
+TransDis	src/scsidata.h	/^		unsigned char TransDis:1;$/;"	m	struct:__anon3::__anon9
+TrimIOP	src/scsidata.h	/^		unsigned char TrimIOP:1;$/;"	m	struct:__anon3::__anon7
+UHALF_PTR	src/basetsd.h	/^typedef unsigned int UHALF_PTR, *PUHALF_PTR;$/;"	t
+UHALF_PTR	src/basetsd.h	/^typedef unsigned short UHALF_PTR, *PUHALF_PTR;$/;"	t
+UINT32	src/basetsd.h	/^typedef unsigned int UINT32, *PUINT32;$/;"	t
+UINT64	src/basetsd.h	/^typedef unsigned __int64 UINT64,  *PUINT64;$/;"	t
+UINT_PTR	src/basetsd.h	/^    typedef [public] unsigned __int3264 UINT_PTR, *PUINT_PTR;$/;"	t
+UINT_PTR	src/basetsd.h	/^    typedef _W64 unsigned int UINT_PTR, *PUINT_PTR;$/;"	t
+UINT_PTR	src/basetsd.h	/^    typedef unsigned __int64 UINT_PTR, *PUINT_PTR;$/;"	t
+UIntToPtr	src/basetsd.h	/^UIntToPtr($/;"	f
+UIntToPtr	src/basetsd.h	262;"	d
+ULONG32	src/basetsd.h	/^typedef unsigned int ULONG32, *PULONG32;$/;"	t
+ULONG64	src/basetsd.h	/^typedef unsigned __int64 ULONG64, *PULONG64;$/;"	t
+ULONG_PTR	src/basetsd.h	/^    typedef [public] unsigned __int3264 ULONG_PTR, *PULONG_PTR;$/;"	t
+ULONG_PTR	src/basetsd.h	/^    typedef _W64 unsigned long ULONG_PTR, *PULONG_PTR;$/;"	t
+ULONG_PTR	src/basetsd.h	/^    typedef unsigned __int64 ULONG_PTR, *PULONG_PTR;$/;"	t
+ULongToPtr	src/basetsd.h	/^ULongToPtr($/;"	f
+ULongToPtr	src/basetsd.h	264;"	d
+UintToPtr	src/basetsd.h	269;"	d
+UlongToPtr	src/basetsd.h	268;"	d
+UpperHexBits	src/ConvTools.cpp	/^static unsigned char UpperHexBits[] = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};$/;"	v	file:
+VendSpec1	src/scsidata.h	/^		unsigned char VendSpec1:1;$/;"	m	struct:__anon3::__anon8
+VendSpec2	src/scsidata.h	/^		unsigned char VendSpec2:1;$/;"	m	struct:__anon3::__anon9
+VendorID	src/scsidata.h	/^	unsigned char	VendorID[8];$/;"	m	struct:__anon3
+VendorSpec	src/scsidata.h	/^	unsigned char	VendorSpec[1];		\/\/ vendor specific code to follow$/;"	m	struct:__anon3
+WBus16	src/scsidata.h	/^		unsigned char WBus16:1;$/;"	m	struct:__anon3::__anon9
+WBus32	src/scsidata.h	/^		unsigned char WBus32:1;$/;"	m	struct:__anon3::__anon9
+WORD_WIDE	src/look.h	29;"	d
+WRITE	src/scsidata.h	70;"	d
+WRITE_10	src/scsidata.h	71;"	d
+WRITE_FILE_PERM	src/look.h	36;"	d
+WRITE_FILE_PERM	src/look.h	41;"	d
+WRITE_FILE_STATUS	src/look.h	35;"	d
+WRITE_FILE_STATUS	src/look.h	40;"	d
+WRITE_VERIFY	src/scsidata.h	83;"	d
+_BASETSD_H_	src/basetsd.h	22;"	d
+_DEVIOCTL_	src/devioctl.h	26;"	d
+_DUMP_POINTERS	src/ntddscsi.h	/^typedef struct _DUMP_POINTERS {$/;"	s
+_IO_SCSI_CAPABILITIES	src/ntddscsi.h	/^typedef struct _IO_SCSI_CAPABILITIES {$/;"	s
+_NTDDSCSIH_	src/ntddscsi.h	52;"	d
+_SCSI_ADAPTER_BUS_INFO	src/ntddscsi.h	/^typedef struct _SCSI_ADAPTER_BUS_INFO {$/;"	s
+_SCSI_ADDRESS	src/ntddscsi.h	/^typedef struct _SCSI_ADDRESS {$/;"	s
+_SCSI_BUS_DATA	src/ntddscsi.h	/^typedef struct _SCSI_BUS_DATA {$/;"	s
+_SCSI_INQUIRY_DATA	src/ntddscsi.h	/^typedef struct _SCSI_INQUIRY_DATA {$/;"	s
+_SCSI_PASS_THROUGH	src/ntddscsi.h	/^typedef struct _SCSI_PASS_THROUGH {$/;"	s
+_SCSI_PASS_THROUGH_DIRECT	src/ntddscsi.h	/^typedef struct _SCSI_PASS_THROUGH_DIRECT {$/;"	s
+_SCSI_PASS_THROUGH_DIRECT_WITH_BUFFER	src/scsidata.h	/^typedef struct _SCSI_PASS_THROUGH_DIRECT_WITH_BUFFER {$/;"	s
+_SRB_IO_CONTROL	src/ntddscsi.h	/^typedef struct _SRB_IO_CONTROL {$/;"	s
+_W64	src/basetsd.h	49;"	d
+_W64	src/basetsd.h	51;"	d
+__SCSI_DATA_STRUC__	src/scsidata.h	16;"	d
+__int3264	src/basetsd.h	81;"	d
+__int3264	src/basetsd.h	90;"	d
+access	src/scsidata.h	/^		unsigned char access:1;	$/;"	m	struct:__anon26::__anon27
+access	src/scsidata.h	/^		unsigned char access:1;	$/;"	m	struct:__anon29::__anon30
+activeFormat	src/scsidata.h	/^		unsigned char	activeFormat:5;$/;"	m	struct:__anon19::__anon21
+activePartition	src/scsidata.h	/^	unsigned char	activePartition;$/;"	m	struct:__anon19
+addSenseLen	src/scsidata.h	/^	unsigned char	addSenseLen;$/;"	m	struct:__anon33
+address	src/scsidata.h	/^	SCSI_ADDR	address;$/;"	m	struct:__anon2
+base	makefile	/^base    = TextDump DumpHexMem DisplayHexLine FindPrevTextPage hexdump dumphextofile GetToken PlatformSpec ConvTools FindString \\$/;"	m
+blockDescLen	src/scsidata.h	/^	unsigned char	blockDescLen;$/;"	m	struct:__anon10
+blockDescLen	src/scsidata.h	/^	unsigned char	blockDescLen;$/;"	m	struct:__anon14
+blockDescLenLSB	src/scsidata.h	/^	unsigned char	blockDescLenLSB;$/;"	m	struct:__anon12
+blockDescLenLSB	src/scsidata.h	/^	unsigned char	blockDescLenLSB;$/;"	m	struct:__anon16
+blockDescLenMSB	src/scsidata.h	/^	unsigned char	blockDescLenMSB;$/;"	m	struct:__anon12
+blockDescLenMSB	src/scsidata.h	/^	unsigned char	blockDescLenMSB;$/;"	m	struct:__anon16
+blockLength	src/scsidata.h	/^	unsigned char	blockLength[3];$/;"	m	struct:__anon18
+buffSizeAtUWarn	src/scsidata.h	/^	unsigned char	buffSizeAtUWarn[3];$/;"	m	struct:__anon19
+buffered_mode	src/scsidata.h	/^		unsigned char buffered_mode:3;$/;"	m	struct:__anon10::__anon11
+buffered_mode	src/scsidata.h	/^		unsigned char buffered_mode:3;$/;"	m	struct:__anon12::__anon13
+buffered_mode	src/scsidata.h	/^		unsigned char buffered_mode:3;$/;"	m	struct:__anon14::__anon15
+buffered_mode	src/scsidata.h	/^		unsigned char buffered_mode:3;$/;"	m	struct:__anon16::__anon17
+bus	src/scsidata.h	/^	unsigned char	bus;$/;"	m	struct:__anon1
+cc	makefile	/^cc = gcc		$/;"	m
+cflags	makefile	/^cflags = -lstdc++$/;"	m
+densityCode	src/scsidata.h	/^	unsigned char	densityCode;$/;"	m	struct:__anon18
+deviceType	src/scsidata.h	/^		unsigned char deviceType:7;		\/\/ Reseved in SCSI-3$/;"	m	struct:__anon3::__anon5
+drive	src/scsidata.h	/^	SCSI_ADDR	drive[MAX_DRIVES_PER_LIBRARY];$/;"	m	struct:__anon2
+element	src/scsidata.h	/^	unsigned short	element;$/;"	m	struct:__anon1
+exceptf	src/scsidata.h	/^	   	unsigned char exceptf:1;$/;"	m	struct:__anon26::__anon27
+exceptf	src/scsidata.h	/^	   	unsigned char exceptf:1;$/;"	m	struct:__anon29::__anon30
+firstStorage	src/scsidata.h	/^	unsigned short	firstStorage;$/;"	m	struct:__anon2
+full	src/scsidata.h	/^		unsigned char full:1;$/;"	m	struct:__anon26::__anon27
+full	src/scsidata.h	/^		unsigned char full:1;$/;"	m	struct:__anon29::__anon30
+gBigEndian	src/look.cpp	/^unsigned int	gBigEndian = 1;$/;"	v
+gDeviceHandle	src/PlatformSpec.cpp	/^	HANDLE		gDeviceHandle;$/;"	v
+gDiskOk	src/look.cpp	/^bool			gDiskOk = false;$/;"	v
+gDiskSector	src/look.cpp	/^unsigned long	gDiskSector = 0;$/;"	v
+gDriveMode	src/look.cpp	/^unsigned int	gDriveMode = 0;$/;"	v
+gFileSize	src/look.cpp	/^unsigned long	gFileSize;$/;"	v
+gLastDisplayPoint	src/look.cpp	/^unsigned int	gLastDisplayPoint = 0;$/;"	v
+gLastLine	src/look.cpp	/^unsigned int	gLastLine = 0;$/;"	v
+gLastSearchPos	src/look.cpp	/^unsigned int	gLastSearchPos = 0;$/;"	v
+gPacketMode	src/look.cpp	/^unsigned int	gPacketMode = 0;$/;"	v
+gPacketSize	src/look.cpp	/^unsigned int	gPacketSize = 0;$/;"	v
+gSectorBuffer	src/look.cpp	/^unsigned char	gSectorBuffer[DISK_BUFFER_SIZE];$/;"	v
+gapSize	src/scsidata.h	/^	unsigned char	gapSize;$/;"	m	struct:__anon19
+headers	makefile	/^headers = ConvTools.h look.h$/;"	m
+information	src/scsidata.h	/^	unsigned char	information[4];$/;"	m	struct:__anon33
+invert	src/scsidata.h	/^		unsigned char invert:1;$/;"	m	struct:__anon26::__anon28
+invert	src/scsidata.h	/^		unsigned char invert:1;$/;"	m	struct:__anon29::__anon32
+isHexDigit	src/ConvTools.cpp	/^bool	isHexDigit(unsigned char c)$/;"	f
+lastSenseCode	src/PlatformSpec.cpp	/^	SENSE_DATA	lastSenseCode;$/;"	v
+lgSearchBuffer	src/FindString.cpp	/^static char	lgSearchBuffer[K_64];$/;"	v	file:
+lun	src/scsidata.h	/^		unsigned char lun:3;$/;"	m	struct:__anon29::__anon31
+lun	src/scsidata.h	/^	unsigned char	lun;$/;"	m	struct:__anon1
+main	src/look.cpp	/^int	main(int argc,char *argv[])$/;"	f
+mediumType	src/scsidata.h	/^	unsigned char	mediumType;$/;"	m	struct:__anon14
+mediumType	src/scsidata.h	/^	unsigned char	mediumType;$/;"	m	struct:__anon16
+modeDataLen	src/scsidata.h	/^	unsigned char	modeDataLen;$/;"	m	struct:__anon14
+modeDataLenLSB	src/scsidata.h	/^	unsigned char	modeDataLenLSB;$/;"	m	struct:__anon16
+modeDataLenMSB	src/scsidata.h	/^	unsigned char	modeDataLenMSB;$/;"	m	struct:__anon16
+notBus	src/scsidata.h	/^		unsigned char notBus:1;$/;"	m	struct:__anon29::__anon31
+numBlocks	src/scsidata.h	/^	unsigned char	numBlocks[3];$/;"	m	struct:__anon18
+numDrives	src/scsidata.h	/^	unsigned short	numDrives;$/;"	m	struct:__anon2
+numStorage	src/scsidata.h	/^	unsigned short	numStorage;$/;"	m	struct:__anon2
+numTransport	src/scsidata.h	/^	unsigned short	numTransport;$/;"	m	struct:__anon2
+obfiles	makefile	/^obfiles = $(addsuffix .o,$(base))$/;"	m
+objects	makefile	/^objects = $(addprefix $(srcdir),$(obfiles))$/;"	m
+pageCode	src/scsidata.h	/^		unsigned char	pageCode:6;$/;"	m	struct:__anon19::__anon20
+pageLength	src/scsidata.h	/^	unsigned char	pageLength;$/;"	m	struct:__anon19
+periphQual	src/scsidata.h	/^		unsigned char periphQual:3;$/;"	m	struct:__anon3::__anon4
+periphType	src/scsidata.h	/^		unsigned char periphType:5;$/;"	m	struct:__anon3::__anon4
+port	src/scsidata.h	/^	unsigned char	port;$/;"	m	struct:__anon1
+readbufferemptyratio	src/scsidata.h	/^	unsigned char	readbufferemptyratio;$/;"	m	struct:__anon19
+removable	src/scsidata.h	/^		unsigned char removable:1;$/;"	m	struct:__anon3::__anon5
+resevd6	src/scsidata.h	/^	unsigned char	resevd6[4];$/;"	m	struct:__anon26
+revd1	src/scsidata.h	/^	unsigned char	revd1[2];$/;"	m	struct:__anon10
+revd1	src/scsidata.h	/^	unsigned char	revd1[3];$/;"	m	struct:__anon12
+rsvd	src/scsidata.h	/^		unsigned char	rsvd:4;$/;"	m	struct:__anon33::__anon34
+rsvd	src/scsidata.h	/^	unsigned char	rsvd;$/;"	m	struct:__anon18
+rsvd	src/scsidata.h	/^	unsigned char	rsvd;$/;"	m	struct:__anon23
+rsvd1	src/scsidata.h	/^		unsigned char	rsvd1:2;$/;"	m	struct:__anon19::__anon20
+rsvd1	src/scsidata.h	/^		unsigned char rsvd1:1;$/;"	m	struct:__anon26::__anon27
+rsvd1	src/scsidata.h	/^		unsigned char rsvd1:1;$/;"	m	struct:__anon29::__anon30
+rsvd1	src/scsidata.h	/^		unsigned char rsvd1:1;$/;"	m	struct:__anon3::__anon7
+rsvd1	src/scsidata.h	/^		unsigned char rsvd1:6;$/;"	m	struct:__anon24::__anon25
+rsvd1	src/scsidata.h	/^	unsigned char	rsvd1;$/;"	m	struct:__anon33
+rsvd2	src/scsidata.h	/^		unsigned char	rsvd2:1;$/;"	m	struct:__anon19::__anon21
+rsvd2	src/scsidata.h	/^		unsigned char rsvd2:1;$/;"	m	struct:__anon10::__anon11
+rsvd2	src/scsidata.h	/^		unsigned char rsvd2:1;$/;"	m	struct:__anon12::__anon13
+rsvd2	src/scsidata.h	/^		unsigned char rsvd2:1;$/;"	m	struct:__anon16::__anon17
+rsvd2	src/scsidata.h	/^		unsigned char rsvd2:4; $/;"	m	struct:__anon29::__anon30
+rsvd2	src/scsidata.h	/^		unsigned char rsvd2:4;$/;"	m	struct:__anon26::__anon27
+rsvd2	src/scsidata.h	/^	unsigned char	rsvd2;$/;"	m	struct:__anon24
+rsvd2	src/scsidata.h	/^	unsigned char	rsvd2;$/;"	m	struct:__anon3
+rsvd2	src/scsidata.h	/^	unsigned char	rsvd2;$/;"	m	struct:__anon33
+rsvd3	src/scsidata.h	/^		unsigned char rsvd3:1;$/;"	m	struct:__anon3::__anon8
+rsvd3	src/scsidata.h	/^	unsigned char	rsvd3;$/;"	m	struct:__anon19
+rsvd3	src/scsidata.h	/^	unsigned char	rsvd3;$/;"	m	struct:__anon26
+rsvd3	src/scsidata.h	/^	unsigned char	rsvd3;$/;"	m	struct:__anon29
+rsvd3	src/scsidata.h	/^	unsigned char	rsvd3[2];$/;"	m	struct:__anon12
+rsvd3	src/scsidata.h	/^	unsigned char	rsvd3[2];$/;"	m	struct:__anon16
+rsvd4	src/scsidata.h	/^		unsigned char rsvd4:1;$/;"	m	struct:__anon29::__anon31
+rsvd4	src/scsidata.h	/^	unsigned char	rsvd4[3];$/;"	m	struct:__anon26
+rsvd5	src/scsidata.h	/^		unsigned char rsvd5:6;$/;"	m	struct:__anon26::__anon28
+rsvd6	src/scsidata.h	/^		unsigned char rsvd6:6;$/;"	m	struct:__anon29::__anon32
+rsvd7	src/scsidata.h	/^		unsigned char rsvd7:1;$/;"	m	struct:__anon29::__anon31
+rsvd8	src/scsidata.h	/^	unsigned char	rsvd8[4];$/;"	m	struct:__anon29
+rsvd9	src/scsidata.h	/^	unsigned char	rsvd9;$/;"	m	struct:__anon29
+scsiBusAddr	src/scsidata.h	/^	unsigned char	scsiBusAddr;$/;"	m	struct:__anon29
+scsiID	src/scsidata.h	/^	unsigned char	scsiID;$/;"	m	struct:__anon1
+selectCompAlgo	src/scsidata.h	/^	unsigned char	selectCompAlgo;$/;"	m	struct:__anon19
+senseData	src/scsidata.h	/^	SENSE_DATA			senseData;		$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT_WITH_BUFFER
+sense_key	src/scsidata.h	/^		unsigned char	sense_key:4;$/;"	m	struct:__anon33::__anon34
+sourceElemAddrLSB	src/scsidata.h	/^	unsigned char	sourceElemAddrLSB;$/;"	m	struct:__anon26
+sourceElemAddrLSB	src/scsidata.h	/^	unsigned char	sourceElemAddrLSB;$/;"	m	struct:__anon29
+sourceElemAddrMSB	src/scsidata.h	/^	unsigned char	sourceElemAddrMSB;$/;"	m	struct:__anon26
+sourceElemAddrMSB	src/scsidata.h	/^	unsigned char	sourceElemAddrMSB;$/;"	m	struct:__anon29
+specificInfo	src/scsidata.h	/^	unsigned char	specificInfo[4];$/;"	m	struct:__anon33
+speed	src/scsidata.h	/^		unsigned char speed:4;$/;"	m	struct:__anon10::__anon11
+speed	src/scsidata.h	/^		unsigned char speed:4;$/;"	m	struct:__anon12::__anon13
+speed	src/scsidata.h	/^		unsigned char speed:4;$/;"	m	struct:__anon14::__anon15
+speed	src/scsidata.h	/^		unsigned char speed:4;$/;"	m	struct:__anon16::__anon17
+sptd	src/scsidata.h	/^	SCSI_PASS_THROUGH_DIRECT	sptd;$/;"	m	struct:_SCSI_PASS_THROUGH_DIRECT_WITH_BUFFER
+srcdir	makefile	/^srcdir = .\/src\/$/;"	m
+svaild	src/scsidata.h	/^		unsigned char svaild:1;$/;"	m	struct:__anon26::__anon28
+svaild	src/scsidata.h	/^		unsigned char svaild:1;$/;"	m	struct:__anon29::__anon32
+toHex	src/ConvTools.cpp	/^unsigned char	toHex(unsigned char c1,unsigned char c2)$/;"	f
+toOctal	src/ConvTools.cpp	/^unsigned char	toOctal(unsigned char c1,unsigned char c2,unsigned char c3)$/;"	f
+transportElement	src/scsidata.h	/^	unsigned short	transportElement;$/;"	m	struct:__anon2
+wp	src/scsidata.h	/^		unsigned char wp:1;$/;"	m	struct:__anon14::__anon15
+writeDelay	src/scsidata.h	/^	unsigned char	writeDelay[3];$/;"	m	struct:__anon19
+writebufferRatio	src/scsidata.h	/^	unsigned char	writebufferRatio;$/;"	m	struct:__anon19
